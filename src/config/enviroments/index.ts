@@ -1,8 +1,0 @@
-const GOOGLE_API_KEY: string = 'AIzaSyBpKdPARuP-0ukgzkqCYqsnBlKV9aCLnBs';
-const NOSYA_API_KEY: string =
-  '40C3Og2gQVgjYJBYT1l0q0HMzN9syEZfvw9KJLeIg47sQKvNZ3wuc72iUwol';
-
-const OSM_API_KEY: string =
-  '5b3ce3597851110001cf6248610d1b745e9b4590be73354c49ce4b4b';
-
-export {GOOGLE_API_KEY, NOSYA_API_KEY, OSM_API_KEY};
