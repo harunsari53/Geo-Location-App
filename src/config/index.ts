@@ -1,3 +1,2 @@
-import {GOOGLE_API_KEY} from './enviroments';
-
-export {GOOGLE_API_KEY};
+import {GOOGLE_API_KEY, NOSYA_API_KEY, OSM_API_KEY} from './enviroments';
+export {GOOGLE_API_KEY, NOSYA_API_KEY, OSM_API_KEY};

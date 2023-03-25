@@ -1,3 +1,5 @@
+import { NOSYA_API_KEY } from "../config";
+
 const BASE_URL = 'https://www.nosyapi.com/apiv2';
 
 class VetService {
@@ -24,7 +26,7 @@ class VetService {
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.setRequestHeader(
       'Authorization',
-      'Bearer 40C3Og2gQVgjYJBYT1l0q0HMzN9syEZfvw9KJLeIg47sQKvNZ3wuc72iUwol',
+      'Bearer '+ NOSYA_API_KEY,
     );
 
     xhr.send(data);
